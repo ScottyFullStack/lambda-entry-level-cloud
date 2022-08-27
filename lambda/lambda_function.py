@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     secrets_provider = parameters.SecretsProvider(config=config)
 
     #Call the secret key and set it to a variable.
-    value = secrets_provider.get("test2")
+    value = secrets_provider.get("database_pw")
 
     #print the event (this is really just for your benefit to see what information is included in the event.)
     print(event)
