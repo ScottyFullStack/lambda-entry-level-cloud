@@ -107,6 +107,6 @@ echo endpoint
 
 echo "Complete!"
 
-printf "$endpoint\n$password\n$s3_bucket" | tee info
-
 rm info
+
+printf "$endpoint\n$password\n$s3_bucket" | tee info
