@@ -4,7 +4,7 @@ echo "Starting script..."
 
 region=us-east-1
 rds_identifier=personsdb
-secret_name=test2
+secret_name=dbpassword
 s3_bucket=sfs-misc-data
 account_number=$(aws sts get-caller-identity --query "Account" --output text)
 
